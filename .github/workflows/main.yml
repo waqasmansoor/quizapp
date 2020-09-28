@@ -32,7 +32,8 @@ jobs:
         run: npm install  
       - name: installing material ui
         run: npm install @material-ui/core
-    
+      - name: installing Typescript
+        run: npm install -g typescript
       # - name: installing charts
         # run: npm install --save react-chartjs-2 chart.js  
       - name: running build
