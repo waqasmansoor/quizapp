@@ -65,7 +65,10 @@ function shuffle(array:string[]):string[] {
                   obj.type
               )
           })
-          setQuizQuestions(quizApiResult)
+          if(questionType[0]==='multiple'){
+            
+            setQuizQuestions(quizApiResult)
+          }
           
           setOptions({
             ...options,
